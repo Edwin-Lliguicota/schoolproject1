@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/algebra.css" rel="stylesheet" type="text/css" />
+    <link href="../css/home.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<div class = "navbar"><!-- Nav Bar -->
+    <a class = "home" href = "index.html">HOME</a>
+    <h1 id="siteTitle">Brooklyn Latin Math Department</h1>
+    <div class="dropdown">
+        <button id="dropbtn">COURSES</button>
+        <div class="dropdown-content">
+            <a class = "geometry" href ="geometry.html">GEOMETRY</a>
+            <a class = "algebra" href ="algebra.html">ALGEBRA</a>
+            <a class = "slyear" href = "ibsl.html">IB SL Year 1</a>
+            <a class = "slyear2" href = "ibslytwo.html">IB SL Year 2</a>
+            <a class = "hlyear" href = "ibhl.html">IB HL Year 1</a>
+            <a class = "hlyear2" href = "ibslytwo.html">IB HL Year 2</a>
+        </div>
+    </div>
+</div>
+<br>
+<body>
+<!-- in this div we will take the 3 most recent videos uploaded by teachers and give them directly to sudents this will of course update with time -->
+<div class = "recentvideos">
+    <iframe class = "video" src="https://www.youtube.com/embed/5yYMicbSf98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class = "video" src="https://www.youtube.com/embed/cX24KlL8klY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class = "video" src="https://www.youtube.com/embed/cX24KlL8klY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<h2>Questions Here</h2>
+<div>
+    <!-- goal is to get latex math to represent image here with the problm -->
+    <img class = 'img' src = "https://ivyleaguecenter.files.wordpress.com/2020/02/2020-amc-12a-problem-24-2.jpg" width = "1200" height = "800">
+
+</div>
+<input class =" algebraInput">
+<button onclick ="myFunction()" >Submit</button>
+<h3>Answer will appear below as Correct if correct if not then give one more try if wrong again say wrong and show the solution/other image</h3>
+<h1 class = "message"></h1>
+</body>
+</html>
+<script src ="../js/algebra.js""></script>
